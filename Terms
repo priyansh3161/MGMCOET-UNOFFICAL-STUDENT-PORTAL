@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms and Conditions of Use &amp; Legal Disclaimer &mdash; MGMCOET Unofficial Student Portal</title>
+<meta name="description" content="Terms and Conditions of Use and Legal Disclaimer of the MGMCOET Unofficial Student Portal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+    :root { --ink: #141B2D; --soft: #4A556C; --blue: #2E5CE6; --blue-d: #1A38A6; --page: #E8ECF4; --rule: #C9D0DF;
+        --paper: #fff; --barbg: rgba(255, 255, 255, .92); --chip: #fff; --card: #F6F8FD; --strong: #000; --chip-on: #E3EBFF }
+    @media (prefers-color-scheme: dark) {
+        :root { --ink: #E7EBF5; --soft: #A5B0C8; --blue: #7C9CFF; --blue-d: #A9BEFF; --page: #0C1120; --rule: #2B3550;
+            --paper: #131A2E; --barbg: rgba(16, 22, 40, .92); --chip: #1A2340; --card: #19223B; --strong: #fff; --chip-on: #263466 }
+    }
+    * { box-sizing: border-box }
+    html { scroll-behavior: smooth; scroll-padding-top: 76px }
+    body { margin: 0; background: var(--page); color: var(--ink); font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif; -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent }
+    a { color: var(--blue); text-underline-offset: 2px }
+    .fab { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: max(18px, env(safe-area-inset-bottom)); z-index: 20; width: 46px; height: 46px; border: 0; border-radius: 50%; cursor: pointer;
+        color: #fff; font: 700 20px/1 system-ui, sans-serif; background: linear-gradient(135deg, #2E5CE6, #1A38A6); box-shadow: 0 8px 22px rgba(46, 92, 230, .45);
+        opacity: 0; transform: translateY(12px); pointer-events: none; transition: opacity .25s, transform .25s }
+    .fab.show { opacity: 1; transform: none; pointer-events: auto } a:hover { color: var(--blue-d) }
+
+    /* top bar (screen only) */
+    .bar { position: sticky; top: 0; z-index: 10; background: var(--barbg); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--rule); font-family: 'Sora', 'Inter', system-ui, sans-serif }
+    .prog { position: absolute; left: 0; bottom: -1px; height: 3px; width: 100%; transform-origin: 0 50%; transform: scaleX(0); background: linear-gradient(90deg, #2E5CE6, #6355E0, #0DA5C0) }
+    .bar-in { max-width: 920px; margin: 0 auto; padding: 10px 18px; display: flex; align-items: center; gap: 12px; justify-content: space-between }
+    .back { display: inline-flex; align-items: center; gap: 8px; font-size: 13.5px; font-weight: 700; text-decoration: none; color: var(--ink) }
+    .back:hover { color: var(--blue) }
+    .ps { display: inline-flex; align-items: center; gap: 6px; font-size: 11.5px; font-weight: 600; color: var(--soft) }
+    .ps b { font-weight: 800; letter-spacing: .04em; background: linear-gradient(100deg, #2E5CE6, #6355E0 50%, #0DA5C0); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent }
+    .jump { max-width: 920px; margin: 0 auto; padding: 0 18px 10px; display: flex; flex-wrap: wrap; gap: 6px; font-family: 'Sora', system-ui, sans-serif }
+    .jump a { font-size: 11.5px; font-weight: 600; text-decoration: none; padding: 4px 10px; border-radius: 999px; background: var(--chip); border: 1px solid var(--rule); color: var(--blue-d) }
+    .jump a:hover, .jump a.on { background: var(--chip-on) } .jump a.on { border-color: var(--blue); color: var(--blue-d) }
+
+    /* the paper */
+    .sheet { max-width: 860px; margin: 26px auto 60px; padding: 64px 72px 56px; background: var(--paper); border: 1px solid var(--rule);
+        box-shadow: 0 1px 2px rgba(15, 27, 51, .06), 0 18px 50px rgba(15, 27, 51, .12); font-size: 16px; line-height: 1.72; text-align: justify; hyphens: none }
+    .letter { text-align: center; padding-bottom: 20px; margin-bottom: 26px; border-bottom: 3px double var(--ink) }
+    .letter h1 { margin: 0; font-size: clamp(20px, 3.4vw, 27px); line-height: 1.25; letter-spacing: .02em; font-weight: 700; text-transform: uppercase }
+    .letter h2 { margin: 12px 0 14px; font-size: clamp(15px, 2.6vw, 19px); letter-spacing: .12em; font-weight: 600; text-transform: uppercase; color: var(--soft) }
+    .letter p { margin: 3px 0; font-size: 14.5px; text-align: center; color: var(--soft) }
+    .letter p b { color: var(--ink) }
+    p { margin: 0 0 13px }
+    b.k { font-weight: 700; color: var(--strong) }
+    a, .sheet p, .sheet li { overflow-wrap: anywhere }
+    h3 { margin: 30px 0 10px; font-size: 15.5px; line-height: 1.4; letter-spacing: .03em; font-weight: 700; text-transform: uppercase; text-align: left;
+        padding-bottom: 6px; border-bottom: 1px solid var(--rule) }
+    h3 span { display: inline-block; min-width: 1.6em; margin-right: 6px; color: var(--blue-d) }
+    h3 span::after { content: "." }
+    ul { margin: 0 0 12px; padding-left: 22px } li { margin-bottom: 10px }
+    .contact { margin-top: 12px; padding: 16px 20px; border: 1px solid var(--rule); border-left: 4px solid var(--blue); background: var(--card); text-align: left }
+    .contact p { margin: 0 0 6px } .contact p:last-child { margin: 0 }
+    .end { margin-top: 34px; padding-top: 16px; border-top: 3px double var(--ink); text-align: center; font-size: 13.5px; color: var(--soft) }
+    .end p { margin: 3px 0; text-align: center }
+
+    @media (max-width: 720px) {
+        html { scroll-padding-top: 112px }
+        .ps { font-size: 11px; gap: 5px; white-space: nowrap }
+        .ps svg { width: 18px; height: 18px }
+        .bar-in { padding: 6px max(14px, env(safe-area-inset-right)) 6px max(14px, env(safe-area-inset-left)) }
+        .back { font-size: 14px; min-height: 40px }
+        .jump { padding: 2px max(14px, env(safe-area-inset-right)) 10px max(14px, env(safe-area-inset-left)); flex-wrap: nowrap; overflow-x: auto; gap: 8px;
+            -webkit-overflow-scrolling: touch; scroll-snap-type: x proximity; scrollbar-width: none }
+        .jump::-webkit-scrollbar { display: none }
+        .jump a { flex: none; white-space: nowrap; scroll-snap-align: center; font-size: 12.5px; padding: 9px 15px }
+
+        .sheet { margin: 0 0 40px; padding: 26px max(18px, env(safe-area-inset-right)) 36px max(18px, env(safe-area-inset-left));
+            border-width: 0; box-shadow: none; font-size: 16px; line-height: 1.7; text-align: left; hyphens: none }
+        .letter { padding-bottom: 16px; margin-bottom: 20px }
+        .letter h1 { font-size: 20px; letter-spacing: .01em }
+        .letter h2 { font-size: 13.5px; letter-spacing: .1em; margin: 10px 0 12px }
+        .letter p { font-size: 13.5px; line-height: 1.55; margin: 6px 0 }
+        .letter p a { display: inline-block; padding: 2px 0 }
+
+        .sheet p > b.k:first-child { display: block; margin-bottom: 3px; font-family: 'Sora', system-ui, sans-serif; font-size: 13px; letter-spacing: .01em; color: var(--blue-d) }
+        .sheet p { margin-bottom: 16px }
+
+        h3 { display: flex; align-items: flex-start; gap: 10px; margin: 32px 0 14px; padding-bottom: 10px; font-family: 'Sora', system-ui, sans-serif; font-size: 14px; letter-spacing: .02em }
+        h3 span { flex: none; min-width: 30px; height: 30px; margin: 0; display: grid; place-items: center; border-radius: 9px; color: #fff; font-size: 13px; letter-spacing: 0;
+            background: linear-gradient(135deg, #2E5CE6, #6355E0) }
+        h3 span::after { content: none }
+
+        ul { padding: 0; list-style: none }
+        li { margin-bottom: 12px; padding: 14px 15px; border: 1px solid var(--rule); border-radius: 14px; background: var(--card); font-size: 15px; line-height: 1.6 }
+        li > a:last-child { display: inline-block; margin-top: 6px; padding: 6px 12px; border-radius: 999px; background: var(--chip-on); font: 600 12.5px 'Sora', system-ui, sans-serif; text-decoration: none }
+
+        .contact { padding: 16px; border-radius: 14px; border-left-width: 4px }
+        .contact p > a { display: inline-block; padding: 4px 0; font-weight: 600 }
+        .end { margin-top: 28px }
+    }
+    @media (max-width: 380px) {
+        .sheet { font-size: 15.5px }
+        .letter h1 { font-size: 18px }
+        .jump a { padding: 8px 13px }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto } .fab { transition: none } }
+    @media print {
+        @page { size: A4; margin: 18mm 16mm }
+        body { background: #fff }
+        :root { --paper: #fff; --ink: #141B2D; --soft: #4A556C; --strong: #000; --blue: #000; --card: #fff; --rule: #C9D0DF }
+        .bar, .jump, .fab { display: none }
+        .sheet { margin: 0; padding: 0; border: 0; box-shadow: none; max-width: none; font-size: 11.5pt; line-height: 1.55 }
+        a { color: #000; text-decoration: none }
+        h3 { break-after: avoid } p, li { orphans: 3; widows: 3 }
+        li { break-inside: avoid }
+    }
+</style>
+</head>
+<body id="top">
+<header class="bar">
+    <div class="bar-in">
+        <a class="back" href="index.html">&larr; Back to Portal</a>
+        <span class="ps"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.2 4.2 5.4v6.1c0 4.9 3.3 8.5 7.8 10.3 4.5-1.8 7.8-5.4 7.8-10.3V5.4L12 2.2Z" fill="#2E5CE6"/><path d="m8.4 12.2 2.7 2.7 4.7-5.2" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Powered by <b>EDU-SHIELD</b></span>
+    </div>
+    <nav class="jump" aria-label="Jump to section">
+        <a href="#tc-s1">1 Non-profit</a><a href="#tc-s2">2 Fair dealing</a><a href="#tc-s3">3 Takedown</a><a href="#tc-s4">4 Data security</a>
+        <a href="#tc-s5">5 Chat &amp; uploads</a><a href="#tc-s6">6 Liability</a><a href="#tc-s7">7 Statutes</a><a href="#tc-s8">8 Contact</a>
+    </nav>
+    <div class="prog" id="prog"></div>
+</header>
+
+<main class="sheet" id="doc">
+    <div class="letter">
+        <h1>Terms and Conditions of Use &amp; Legal Disclaimer</h1>
+        <h2>MGMCOET Unofficial Student Portal</h2>
+        <p><b>Official Website:</b> <a href="https://mgmcoet-unoffical-student-portal.vercel.app" target="_blank" rel="noopener">https://mgmcoet-unoffical-student-portal.vercel.app</a></p>
+        <p><b>Complaints &amp; Copyright Contact Email:</b> <a href="mailto:edu.shield3161@gmail.com">edu.shield3161@gmail.com</a> &nbsp;|&nbsp; <b>Effective Date:</b> November 15, 2026</p>
+    </div>
+
+                
+
+                <p><b class="k">Preamble:</b> These Terms and Conditions of Use (&ldquo;Agreement&rdquo; or &ldquo;Terms&rdquo;) constitute a legally binding electronic record under the Information Technology Act, 2000 and govern access to and use of the MGMCOET Unofficial Student Portal (<a href="https://mgmcoet-unoffical-student-portal.vercel.app" target="_blank" rel="noopener">https://mgmcoet-unoffical-student-portal.vercel.app</a>, hereinafter referred to as the &ldquo;Platform&rdquo;, &ldquo;Website&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). By accessing, registering on, or using any academic notes, video lecture streams, attendance utilities, or community communication features on this Platform, you (&ldquo;User&rdquo; or &ldquo;Student&rdquo;) signify your unconditional acceptance of these Terms. If you do not agree to these Terms, please discontinue use of the Platform immediately.</p>
+
+<h3 id="tc-s1"><span>1</span>Non-Profit Educational Nature &amp; Institutional Disaffiliation</h3>
+<p><b class="k">1.1. Voluntary Non-Commercial Operation:</b> The Platform is an independent, student-run, non-profit educational initiative operated strictly on a zero-revenue basis. We do not charge subscription fees, sell study materials, run commercial advertisements, or derive any financial profit from any educational content accessible through the Website.</p>
+<p><b class="k">1.2. No Official University or College Affiliation:</b> The Platform is an unofficial peer-learning portal created by students for engineering students and is not owned, managed, endorsed, or officially affiliated with MGM&rsquo;s College of Engineering &amp; Technology (Noida) or Dr. A.P.J. Abdul Kalam Technical University (AKTU).</p>
+
+<h3 id="tc-s2"><span>2</span>Fair Dealing, Ad-Free Lecture Mirroring &amp; Creator Attribution</h3>
+<p><b class="k">2.1. Statutory Fair Dealing &amp; Electronic Storage Exemption:</b> All syllabus notes, previous year question papers (PYQs), and mirrored video lectures provided on this Platform are made available strictly for private study, research, and distraction-free academic instruction under the statutory exceptions of the Indian Copyright Act, 1957. Specifically, Section 52(1)(a)(i) of the Copyright Act, 1957 and the Electronic Storage Explanation to Section 52(1) expressly declare that fair dealing for private study or research and &ldquo;the storing of any work in any electronic medium for the purposes mentioned in this clause&hellip; shall not constitute infringement of copyright.&rdquo; Publicly available lectures are stored on ad-free secondary servers solely under this statutory provision so that students can study for university examinations without commercial ad interruptions. Furthermore, Section 52(1)(i) of the Copyright Act, 1957 permits reproduction of works by students and teachers in the course of academic instruction, as affirmed by the Delhi High Court in <i>University of Oxford v. Rameshwari Photocopy Services</i>.</p>
+<p><b class="k">2.2. Strict Prohibition of Paid or Pirated Courses:</b> In strict compliance with Section 65A of the Copyright Act, 1957, the Platform strictly prohibits and never downloads, hosts, or distributes any paid course, premium batch, subscription-locked video, or DRM-protected material. Only educational lectures that are already 100% free and publicly accessible on open YouTube channels are mirrored. We never circumvent any paywall or technological protection measure.</p>
+<p><b class="k">2.3. Preservation of Creator Logos, Watermarks &amp; Moral Rights:</b> The Platform claims zero copyright ownership over third-party lectures or notes; all intellectual property rights belong exclusively to their respective original creators, teachers, and YouTube channels. In full compliance with the Author&rsquo;s Special Moral Rights under Section 57 of the Copyright Act, 1957 and Protection of Rights Management Information under Section 65B of the Copyright Act, 1957, we never remove, crop, blur, or alter any educator&rsquo;s logo, channel watermark, intro/outro credit, or name in any lecture, and we act without any commercial intent (Section 63 of the Copyright Act, 1957).</p>
+
+<h3 id="tc-s3"><span>3</span>Unconditional Creator Takedown &amp; 24-Hour Removal Protocol</h3>
+<p><b class="k">3.1. Direct Takedown Notice by Content Owners:</b> We hold the highest respect for all educators and content creators. If you are the copyright owner, teacher, or authorized representative of any publicly available lecture featured on this Platform and wish to have your video removed, un-mirrored, or replaced with a direct link to your official YouTube channel, please send a written request specifying the lecture title or URL to our <a href="#tc-s8">Complaints &amp; Copyright Contact</a> at <a href="mailto:edu.shield3161@gmail.com">edu.shield3161@gmail.com</a>.</p>
+<p><b class="k">3.2. Guaranteed 24 to 36 Hour Removal:</b> Pursuant to Rule 3 of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021, we will acknowledge receipt of your request within twenty-four (24) hours and permanently remove the specified video from our servers within twenty-four (24) to thirty-six (36) hours without any dispute.</p>
+
+<h3 id="tc-s4"><span>4</span>Data Security, Encryption &amp; Cyber-Incident Liability Disclaimer</h3>
+<p><b class="k">4.1. Reasonable Security Safeguards:</b> We endeavor to protect User account data by implementing standard encryption protocols (including HTTPS/TLS transport encryption and managed cloud authentication/database security via Vercel, Cloudflare, Supabase, and Google Firebase) in good faith in accordance with Section 8 of the Digital Personal Data Protection Act, 2023 (DPDP Act) and Section 43A of the Information Technology Act, 2000.</p>
+<p><b class="k">4.2. Exemption from Liability for Third-Party Hacking &amp; Force Majeure:</b> Users acknowledge that no internet transmission or free-tier cloud infrastructure is completely immune to sophisticated cyberattacks, zero-day exploits, or Distributed Denial of Service (DDoS) attacks. Pursuant to the doctrine of impossibility and events beyond reasonable control under Section 56 of the Indian Contract Act, 1872, the student developers and administrators of the Platform shall not be held legally or financially liable for any unauthorized access, hacking incident, data leak, or service outage caused by: (a) unlawful intrusion by third-party hackers (for which the hacker alone bears civil and criminal liability under Section 43 of the Information Technology Act, 2000); (b) security breaches or outages occurring at third-party cloud providers (Vercel, Cloudflare, Supabase, Google Firebase, Google Drive, or Hugging Face); or (c) Users voluntarily disclosing their passwords or personal details in public chat rooms. Users are advised never to upload sensitive government IDs or financial data on the Platform.</p>
+
+<h3 id="tc-s5"><span>5</span>Intermediary Safe Harbour for Chat, Confessions &amp; User Uploads</h3>
+<p><b class="k">5.1. Safe Harbour Protection:</b> For interactive features including real-time student chat, anonymous confessions, and student e-library uploads, the Platform functions solely as a passive technical &ldquo;Intermediary&rdquo; entitled to Safe Harbour immunity under Section 79 of the Information Technology Act, 2000. Individual Users are solely responsible for the content they post.</p>
+<p><b class="k">5.2. Prohibited Conduct:</b> In accordance with Rule 3(1)(b) of the IT Rules, 2021, Users shall not host, upload, or transmit any content that is defamatory, obscene, harassing, invasive of privacy, impersonating faculty or students, infringing intellectual property, containing malware, or violating Indian law. Violating posts and accounts will be removed and banned immediately.</p>
+
+<h3 id="tc-s6"><span>6</span>&ldquo;As-Is&rdquo; Disclaimer, Limitation of Liability &amp; Governing Law</h3>
+<p><b class="k">6.1. &ldquo;As-Is&rdquo; Service &amp; Zero Monetary Liability:</b> All academic resources and attendance calculators are provided on an &ldquo;AS IS&rdquo; and &ldquo;AS AVAILABLE&rdquo; basis without warranties of any kind. Because the Platform is a free, non-profit student initiative, the maximum aggregate liability of the Platform administrators for any claim under the Indian Contract Act, 1872 shall be INR 0 (Zero Rupees).</p>
+<p><b class="k">6.2. Governing Law &amp; Exclusive Jurisdiction:</b> This Agreement shall be governed by and construed in accordance with the laws of the Republic of India. Any dispute arising under these Terms shall be subject to the exclusive jurisdiction of the competent courts at Gautam Buddha Nagar (Noida), Uttar Pradesh, India.</p>
+
+<h3 id="tc-s7"><span>7</span>Summary of Applicable Indian Statutes &amp; Legal Protections</h3>
+<ul>
+<li><b class="k">Section 52(1)(a)(i) &amp; Electronic Storage Explanation, Copyright Act, 1957:</b> Exempts fair dealing for private study and research, and expressly states that storing any work in an electronic medium for non-commercial study does not constitute copyright infringement (protects ad-free lecture mirroring for students). <a href="#tc-s2">See Section 2</a></li>
+<li><b class="k">Section 52(1)(i), Copyright Act, 1957:</b> Permits reproduction and use of works by students and teachers in the course of academic instruction (DU Photocopy Case Precedent). <a href="#tc-s2">See Section 2</a></li>
+<li><b class="k">Section 57 &amp; Section 65B, Copyright Act, 1957:</b> Protects the original creator&rsquo;s moral right to attribution (Section 57) and prohibits removing watermarks or Rights Management Information (Section 65B); satisfied because creator logos, watermarks, and names are kept 100% intact. <a href="#tc-s2">See Section 2</a></li>
+<li><b class="k">Section 65A &amp; Section 63, Copyright Act, 1957:</b> Penalizes bypassing digital paywalls/DRM (Section 65A) and distinguishes commercial piracy from non-profit acts without intent to infringe (Section 63); satisfied because only free, open YouTube lectures are used and paid courses are strictly excluded. <a href="#tc-s2">See Section 2</a></li>
+<li><b class="k">Section 8, Digital Personal Data Protection (DPDP) Act, 2023 &amp; Section 43A, IT Act, 2000:</b> Mandates reasonable security safeguards and encryption practices to protect user personal data in good faith. <a href="#tc-s4">See Section 4</a></li>
+<li><b class="k">Section 56, Indian Contract Act, 1872 &amp; Section 43, IT Act, 2000:</b> Discharges liability for impossible or unforeseen events beyond control (Force Majeure, Section 56) and places statutory liability for unauthorized computer intrusion solely on the hacker (Section 43). <a href="#tc-s4">See Section 4</a></li>
+<li><b class="k">Section 79, IT Act, 2000 &amp; Rule 3, IT (Intermediary Guidelines) Rules, 2021:</b> Grants Safe Harbour immunity to online platforms for user-generated chat/confessions and establishes the 24&ndash;36 hour takedown mechanism via the <a href="#tc-s8">Complaints &amp; Copyright Contact</a>. <a href="#tc-s5">See Section 5</a></li>
+</ul>
+
+<h3 id="tc-s8"><span>8</span>Complaints &amp; Copyright Contact</h3>
+<div class="contact">
+<p><b class="k">Email:</b> <a href="mailto:edu.shield3161@gmail.com">edu.shield3161@gmail.com</a></p>
+<p><b class="k">Portal URL:</b> <a href="https://mgmcoet-unoffical-student-portal.vercel.app" target="_blank" rel="noopener">https://mgmcoet-unoffical-student-portal.vercel.app</a></p>
+<p><b class="k">Jurisdiction:</b> Gautam Buddha Nagar (Noida), Uttar Pradesh, India</p>
+</div>
+
+    <div class="end">
+        <p>&mdash; End of Document &mdash;</p>
+        <p>&copy; <span id="yr">2026</span> MGMCOET Unofficial Student Portal &middot; <a href="index.html">Back to Portal</a></p>
+    </div>
+</main>
+<button class="fab" id="fab" type="button" aria-label="Back to top">&uarr;</button>
+<script>
+(function(){
+    var hd=document.querySelector('.bar'), prog=document.getElementById('prog'), fab=document.getElementById('fab'),
+        jump=document.querySelector('.jump'), chips=[].slice.call(jump.querySelectorAll('a')), ticking=false, root=document.documentElement;
+    function pad(){ root.style.scrollPaddingTop=(hd.offsetHeight+10)+'px'; }
+    function upd(){
+        var max=root.scrollHeight-window.innerHeight, y=window.scrollY||root.scrollTop;
+        prog.style.transform='scaleX('+(max>0?Math.min(1,y/max):0)+')';
+        fab.classList.toggle('show',y>700); ticking=false;
+    }
+    addEventListener('scroll',function(){ if(!ticking){ ticking=true; requestAnimationFrame(upd);} },{passive:true});
+    addEventListener('resize',pad); pad(); upd();
+    fab.addEventListener('click',function(){ scrollTo({top:0,behavior:'smooth'}); });
+    if('IntersectionObserver' in window){
+        var map={}; chips.forEach(function(a){ map[a.getAttribute('href').slice(1)]=a; });
+        var io=new IntersectionObserver(function(es){
+            es.forEach(function(e){
+                if(!e.isIntersecting) return;
+                chips.forEach(function(c){ c.classList.remove('on'); });
+                var a=map[e.target.id]; if(!a) return;
+                a.classList.add('on');
+                jump.scrollTo({left:a.offsetLeft-(jump.clientWidth-a.offsetWidth)/2,behavior:'smooth'});
+            });
+        },{rootMargin:'-20% 0px -70% 0px'});
+        document.querySelectorAll('h3[id^="tc-s"]').forEach(function(h){ io.observe(h); });
+    }
+})();
+try{document.getElementById('yr').textContent=new Date().getFullYear()}catch(e){}</script>
+</body>
+</html>
